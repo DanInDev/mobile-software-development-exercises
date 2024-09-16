@@ -4,14 +4,15 @@ Welcome to the **Mobile Software Development Exercises** repository! This reposi
 
 ## Structure
 This repository is for all of the exercises which will be updated.
-The structure is as seen below, catagorised into Lectures and then the exercise name as seen on the slides.
+The general structure is as seen below, catagorised into Lectures and then the exercise name as seen on the slides.
 
--Lecture1
-  --Exercise 1
--Lecture2
-  --Exercise 1
-  --Exercise 2
-  --Exercise 3
+- **Lecture1**
+  - Exercise 1
+
+- **Lecture2**
+  - Exercise 1
+  - Exercise 2
+  - Exercise 3
 
 
 ## Getting Started
