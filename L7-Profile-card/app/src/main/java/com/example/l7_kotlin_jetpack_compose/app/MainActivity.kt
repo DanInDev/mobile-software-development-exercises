@@ -31,13 +31,18 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         val user = UserProfileViewModel(
             UserRepository())
+
         user.getUser("John")
         println("user: " + user.getCurrent().name)
+
         val interests = InterestsViewModel(
             InterestsRepository())
+
         super.onCreate(savedInstanceState)
+
         println("interests: " + interests.getInterests())
         println("user interests: " + user.getCurrent().interestNames)
+
         setContent {
             L7kotlinjetpackcomposeTheme (
                 dynamicColor = false
@@ -95,6 +100,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     L7kotlinjetpackcomposeTheme {
-        Greeting("Android")
+        Greeting("L7 kotlin")
     }
 }

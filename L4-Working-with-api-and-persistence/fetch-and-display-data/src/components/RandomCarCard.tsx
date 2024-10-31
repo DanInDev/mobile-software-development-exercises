@@ -20,13 +20,15 @@ type CarResponse = {
 };
 
 export default function RandomCarCard() {
+
   // State to hold the current random car.
   const [car, setCar] = useState<CarResponse | null>(null);
 
   // Function to fetch car data from the API
   const fetchCarData = async () => {
     try {
-      // Fetch the car data from the API
+      // Fetch the car data from the "API" (JSON file in this case), generally you would use a real API endpoint.
+      // For example, see the SWApi for real endpoints: https://swapi.dev/
       const response = await axios.get(
         "https://raw.githubusercontent.com/DanInDev/mobile-software-development-exercises/main/cars.json"
       );

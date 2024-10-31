@@ -20,6 +20,7 @@ type CarResponse = {
   isAvailable: boolean;
 };
 
+
 export default function RandomCarCard() {
   
   const [car, setCar] = useState<CarResponse | null>(null);
