@@ -17,7 +17,8 @@ The general structure is as seen below, catagorised into Lectures and then the e
 
 ## Getting Started
 
-To get started, make sure you have [Node.js](https://nodejs.org/) and [Expo CLI](https://docs.expo.dev/get-started/installation/) installed on your machine.
+To get started, make sure you have [Node.js](https://nodejs.org/), [Expo CLI](https://docs.expo.dev/get-started/installation/) installed when working with with React Native and Expo. 
+And [Android Studios](https://developer.android.com/studio)
 
 ### Installation
 
@@ -34,7 +35,7 @@ To get started, make sure you have [Node.js](https://nodejs.org/) and [Expo CLI]
    ```bash
    cd L1-Introduction-to-React-Native-and-Expo/Creating-a-new-Component
    ```
-3. When opening the exercise directory, remember to run:
+3. When opening the exercise directory, remember to run :
  ```bash
   npm install
   ```
