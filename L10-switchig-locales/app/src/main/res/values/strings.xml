@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">L7-kotlin-jetpack-compose</string>
+    <string name="title_activity_screen">screen</string>
+    <string name="friends">friends</string>
+    <string name="description" >description</string>
+    <string name="interests"> interests </string>
+</resources>

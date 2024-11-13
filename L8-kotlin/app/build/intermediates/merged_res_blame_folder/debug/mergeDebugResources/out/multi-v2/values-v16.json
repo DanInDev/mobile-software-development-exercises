@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-42:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/othelloengineer/.gradle/caches/transforms-4/8d426630562ca7afdef46a3c1e193a32/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
