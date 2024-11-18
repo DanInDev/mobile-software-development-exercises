@@ -42,3 +42,25 @@ This project is a React Native application called "Galaxy Navigator". It feature
 - **galaxy.jpg**: Background image for the splash screen.
 - **lightsaber.png**: Divider image used in the header.
 - **x-wing.png**: Image used in various components.
+
+# Getting started!
+
+### Clone the repository 
+```console
+https://github.com/DanInDev/mobile-software-development-exercises
+```
+### Navigate into this directory with
+
+```console
+cd mobile-software-development-exercises/mock-exam-RN-completed-example
+```
+
+### Install the dependencies
+```console
+npm install
+```
+### And lastly run the project on your emulator or localhost.
+```console
+npx expo start
+```
+### Having issues on MacOS? Check if Watchman is properly updated
