@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Galaxy_Navigator",
+    "slug": "Galaxy_Navigator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+
+     "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Starjedi.ttf",
+            "./assets/fonts/Starjhol.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+      
+    ]
+  }
+}
